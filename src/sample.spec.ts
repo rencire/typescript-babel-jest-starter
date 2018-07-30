@@ -1,4 +1,4 @@
-import {main} from "./main.ts";
+import {main} from "./main";
 
 it('should work', () => {
     const x: number = 3;

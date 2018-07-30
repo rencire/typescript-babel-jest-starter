@@ -1,4 +1,6 @@
+# https://github.com/browserslist/browserslist#full-list
 # Browsers that we support
 
 last 1 version
+not dead
 > 1%
