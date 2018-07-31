@@ -8,22 +8,25 @@ Typescript compiler only used for code checking. Babel is soley responsible for 
 ### Typescript
 * Initializes `tsconfig.json` with default options.  Change as needed.
 ```
-npm i -D typescript
+npm i -D typescript@3.0.1
 npx tsc --init  
-
 ```
 
 ### Babel
 ```
-npm i -D @babel/cli @babel/core 
-npm i -D @babel/preset-env @babel/preset-typescript
+npm i -D @babel/cli@7.0.0-beta.55
+npm i -D @babel/core@7.0.0-beta.55 
+npm i -D @babel/preset-env@7.0.0-beta.55 
+npm i -D @babel/preset-typescript@7.0.0-beta.55
 ```
 
-### jest
+### Jest
 * Need `babel-core@bridge` so that jest can use the new `@babel/core` package.
+* Change options in `jest.config.js` as needed.
 ```
-npm i -D @types/jest jest
-npm i -D babel-core@bridge
+npm i -D @types/jest@23.3.1 
+npm i -D jest@23.4.2
+npm i -D babel-core@7.0.0-bridge.0
 npx jest --init
 ```
 
