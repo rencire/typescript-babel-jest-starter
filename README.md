@@ -1,7 +1,12 @@
 # Typescript-Babel-Jest
 
 Simple, barebones starter Typescript project with Jest setup.  
-Typescript compiler only used for code checking. Babel is soley responsible for transpilation.
+Typescript compiler only used for code editing. Babel is solely responsible for transpilation.
+
+To use:
+```
+git clone git@github.com:rencire/ts-babel-jest.git <your_project_name>
+```
 
 ## Manually install dependencies
 
